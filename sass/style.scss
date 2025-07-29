@@ -249,6 +249,7 @@ h2 {
 }
 
 /* footer */
+
 .footer {
   padding: 100px 0 0 0;
 }
@@ -319,6 +320,7 @@ form {
     padding: 30px;
     font-size: 50px;
     color: #e0e0e0;
+    
   }
   .menu label {
     display: initial;
@@ -428,11 +430,13 @@ form {
     width: 40% !important;
   }
   /* PAGE MARCAS RESPONSIVE */
+
   #main-marcas {
     display: contents;
   }
 }
 /* PAGE MARCAS */
+
 :root {
   --bg-color: #dcdc39;
   --light-grey: #666;
