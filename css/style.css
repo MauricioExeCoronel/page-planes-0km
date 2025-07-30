@@ -909,8 +909,8 @@ ul li a:hover {
 }
 
 /* PAGE GRID */
-/* PAGE SERVICIOS */
-/* HEAD SERVICIOS */
+/* PAGE GRID AUTOS */
+/* HEAD GRID AUTOS */
 #head-grid {
   display: flex;
   align-items: center;
@@ -927,7 +927,7 @@ ul li a:hover {
   margin-right: 10px;
 }
 
-/* LOGO SERVICIOS */
+/* LOGO GRID AUTOS */
 .logo-marcasg {
   margin-left: 30px;
 }
@@ -939,7 +939,7 @@ ul li a:hover {
   font-size: 20px;
 }
 
-/* MENU SERVICIOS */
+/* MENU GRID AUTOS */
 .navbar-marcasg a {
   display: block;
   padding: 20px 20px;
@@ -953,7 +953,7 @@ ul li a:hover {
   background: #e91e63;
 }
 
-/* BODY SERVICIOS */
+/* BODY GRID AUTOS */
 #body-multimarca {
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
