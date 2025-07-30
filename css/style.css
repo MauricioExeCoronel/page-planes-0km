@@ -23,7 +23,6 @@ p {
 }
 
 /* HEADER INICIO */
-
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/inicial.jpg);
   background-position: center center;
@@ -44,9 +43,7 @@ p {
   justify-content: space-between;
 }
 
-
 /* LOGO INICIO */
-
 .logo {
   color: #FFfDFC;
   font-size: 25px;
@@ -152,7 +149,6 @@ h2 {
 }
 
 /* MAIN INICIO */
-
 .information {
   display: flex;
   justify-content: space-between;
@@ -254,7 +250,6 @@ h2 {
 }
 
 /* footer INICIO */
-
 .footer {
   padding: 100px 0 0 0;
 }
@@ -418,11 +413,9 @@ form {
   #main-contacto {
     display: contents;
   }
-  
   #body-contacto {
     display: flex;
   }
-
   .container-contacto .text {
     font-size: 30px;
   }
@@ -438,10 +431,7 @@ form {
   .submit-btn .input-data-contacto {
     width: 40% !important;
   }
-
 }
-
-
 /* PAGE MARCAS */
 :root {
   --bg-color: #dcdc39;
@@ -455,7 +445,6 @@ html {
 }
 
 /* BODY MARCAS */
-
 #body-marcasd {
   min-width: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/inicial.jpg);
@@ -465,7 +454,6 @@ html {
 }
 
 /* MENU MARCAS (desplegable) */
-
 .nav-marcas {
   position: fixed;
   background-color: #fff;
@@ -598,31 +586,22 @@ html {
 }
 
 /* media marcas */
-
 @media (max-width: 700px) {
-
   /* BODY MARCAS */
-
-#body-marcasd {
-  width: 100%;
-  font-size: 16px;
+  #body-marcasd {
+    width: 100%;
+    font-size: 16px;
+  }
+  #main-marcas {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .nav-marcas input {
+    width: 40px;
+    height: 40px;
+  }
 }
-
-#main-marcas {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.nav-marcas input {
-  width: 40px;
-  height: 40px;
-}
-
-
-}
-
 /* PAGE CONTACTO */
-
 #body-contacto {
   margin: 0;
   padding: 0;
@@ -780,7 +759,6 @@ form .form-row .textarea {
 }
 
 /* PAGE GESTION */
-
 * #body-gestion {
   margin: 0;
   padding: 0;
@@ -791,7 +769,7 @@ form .form-row .textarea {
 .container-g {
   max-width: 100%;
   height: 100%;
-  background: linear-gradient(90deg,rgb(8,8,67),rgb(5,1,18),rgb(8,8,67));
+  background: linear-gradient(90deg, rgb(8, 8, 67), rgb(5, 1, 18), rgb(8, 8, 67));
 }
 
 .gest {
@@ -814,9 +792,5 @@ form .form-row .textarea {
   height: 15%;
   background-color: #f974a1;
 }
-
-
-
-
 
 /*# sourceMappingURL=style.css.map */
