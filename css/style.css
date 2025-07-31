@@ -912,11 +912,6 @@ ul li a:hover {
   filter: saturate(120%);
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-  #html-marcasbase {
-    max-width: 991.98px;
-  }
-}
 /* PAGE GRID */
 /* PAGE GRID AUTOS */
 /* HEAD GRID AUTOS */
