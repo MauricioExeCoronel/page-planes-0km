@@ -863,6 +863,11 @@ ul li a:hover {
   height: 85%;
 }
 
+.secondg {
+  background-color: #230845;
+  
+}
+
 .main-content-g .left-g {
   width: 50%;
   height: 100%;
@@ -926,10 +931,12 @@ ul li a:hover {
 }
 
 .right-g img {
-  width: 300px;
+  width: 100%;
   transform: translateY(-30px);
   filter: saturate(120%);
 }
+
+
 
 
 /* PAGE GRID */
