@@ -1353,5 +1353,52 @@ p {
     display: none;
   }
 }
+/* PAGE CARS */
+#html-car {
+  @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+}
+#html-car * {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+  text-decoration: none;
+  border: none;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7em;
+  scroll-behavior: smooth;
+}
+
+#body-car {
+  background-color: #f7f7f7;
+  position: relative;
+}
+
+#header-car {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 8%;
+  height: 50px;
+  box-shadow: 0 0 10 0 rgba(0, 0, 0, 0.2);
+}
+
+#header-car .logo-car p {
+  color: #e91e63;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#header-car .logo-car span {
+  color: #391420;
+}
 
 /*# sourceMappingURL=style.css.map */
