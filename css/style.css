@@ -1395,7 +1395,7 @@ p {
 }
 
 #header-car .logo-car p {
-  color: #e91e63;
+  color: #1e25e9;
   font-size: 25px;
   font-weight: bold;
 }
@@ -1426,7 +1426,7 @@ p {
 }
 
 #header-car button {
-  background-color: #e91e63;
+  background-color: #1e25e9;
   cursor: pointer;
   color: #e0e0e0;
   padding: 5px 25px;
@@ -1443,23 +1443,13 @@ p {
   position: relative;
 }
 
-::-webkit-scrollbar {
-  width: 8px;
-  background-color: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #e91e63;
-  display: none;
-}
-
 #home-car .izq-car {
   font-size: 35px;
   margin-bottom: 10px;
 }
 
 #home-car .izq-car h1 span {
-  color: #e91e63;
+  color: #1e25e9;
 }
 
 #home-car .izq-car p {
@@ -1469,7 +1459,7 @@ p {
 }
 
 #home-car .izq-car a {
-  background-color: #e91e63;
+  background-color: #1e25e9;
   padding: 10px 20px;
   font-size: 14px;
   color: #e0e0e0;
@@ -1510,7 +1500,7 @@ p {
   left: 10px;
   bottom: 0;
   content: "";
-  background-color: #e91e63;
+  background-color: #1e25e9;
   width: 100%;
   height: 5px;
   border-radius: 6px;
@@ -1520,7 +1510,7 @@ p {
   position: absolute;
   left: -10px;
   content: "";
-  background-color: #e91e63;
+  background-color: #1e25e9;
   width: 100%;
   height: 5px;
   border-radius: 6px;
@@ -1552,10 +1542,6 @@ p {
   height: 60%;
 }
 
-.menu_toggle {
-  display: none;
-}
-
 /* RESPONSIVE PAGE CARS */
 @media (max-width: 668px) {
   #header-car {
@@ -1575,53 +1561,6 @@ p {
   .der-car {
     margin-top: 50px;
     width: 60%;
-  }
-  .menu_toggle {
-    height: 50px;
-    width: 50px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-  .menu_toggle span {
-    width: 35px;
-    background-color: #e91e63;
-    height: 5px;
-    border-radius: 6px;
-    transition: 0.5s;
-  }
-  .menu_toggle span.active {
-    width: 0px;
-  }
-  .menu_toggle::before {
-    position: absolute;
-    content: "";
-    width: 20px;
-    height: 5px;
-    background-color: #e91e63;
-    transform: translateY(10px);
-    border-radius: 6px;
-    transition: 0.5s;
-  }
-  .menu_toggle.active::before {
-    width: 28px;
-    transform: rotate(45deg);
-  }
-  .menu_toggle::after {
-    position: absolute;
-    content: "";
-    width: 20px;
-    height: 5px;
-    background-color: #e91e63;
-    transform: translateY(-10px);
-    border-radius: 6px;
-    transition: 0.5s;
-  }
-  .menu_toggle.active::after {
-    width: 28px;
-    transform: rotate(-45deg);
   }
   #header-car .menu-car.responsive {
     position: absolute;
