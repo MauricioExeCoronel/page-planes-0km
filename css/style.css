@@ -1588,11 +1588,61 @@ p {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #1e25e9;
+  }
+  .section__ container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 5rem 1rem;
+  }
+  img {
+    max-width: 100%;
+    display: flex;
+  }
+  a {
+    text-decoration: none;
   }
   #body-planes {
-    font-family: "poppins", sans-serif;
-    background-color: #1e25e9;
+    font-family: "Popins", sans-serif;
+    background-color: white;
+  }
+  .nav_planes {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+  }
+  .nav__links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .link a {
+    font-weight: 500;
+    color: var(--text-light);
+    transition: 0.3s;
+  }
+  .link a:hover {
+    counter-reset: var(--text-dark);
+  }
+  .nav__logo {
+    text-align: center;
+    cursor: pointer;
+  }
+  .nav__logo img {
+    margin: auto;
+    max-width: 120px;
+  }
+  .nav__logo h4 {
+    font-size: 1.5rem;
+    font-family: var(--header-font);
+    letter-spacing: 2px;
+    color: var(--text-dark);
+  }
+  .nav__logo p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: var(--text-light);
   }
 }
 
