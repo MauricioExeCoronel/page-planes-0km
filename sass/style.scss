@@ -635,3 +635,10 @@ a {
   flex-direction: column;
   gap: 2rem;
 }
+
+.display__content {
+  padding: 4rem 0;
+  flex: 1;
+  display: grid;
+  place-content: center;
+}
