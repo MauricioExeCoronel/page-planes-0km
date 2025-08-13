@@ -663,3 +663,22 @@ a {
   font-style: italic;
 }
 
+/* FOOTER PLANES */
+
+.footer-planes {
+  margin-top: 2rem;
+  position: relative;
+  background-color: var(--primary-color);
+}
+
+.footer__container {
+  text-align: center;
+}
+
+.footer__container img {
+  position: center;
+  top: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 150px;
+}
