@@ -1652,6 +1652,9 @@ p {
 
 /* PAGE PLANES */
 
+#html-planes {
+  max-width: 2500px;
+}
 
 #html-planes {
   :root {
@@ -1676,6 +1679,7 @@ p {
   margin: 0 auto;
   padding: 5rem 1rem;
 }
+
 img {
   max-width: 100%;
   display: flex;

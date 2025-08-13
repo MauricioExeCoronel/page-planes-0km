@@ -1576,6 +1576,9 @@ p {
     background-color: #e0e0e0;
   }
   /* PAGE PLANES */
+  #html-planes {
+    max-width: 2500px;
+  }
   #html-planes :root {
     --primary-color:#f5f4f2;
     --text-dark:#57534e;
