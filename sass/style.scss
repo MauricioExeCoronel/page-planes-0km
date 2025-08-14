@@ -939,8 +939,12 @@ a {
 }
 
 #body-tcn {
-  font-family: 'Courier New', Courier, monospace;
-  background-color: var(--primary-color);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #000000;
+}
+
+#html-tcn p {
+  color: #f3f4f6;
 }
 
 .header-tcn {
@@ -957,7 +961,7 @@ a {
 }
 
 .container__left{
-  background-color: var(--secondary-color);
+  background-color: #1b1d1a;
   justify-content: flex-end;
 }
 
@@ -970,7 +974,7 @@ a {
   margin-left: auto;
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--extra-light);
+  color: #f3f4f6;
 }
 
 .content-tcn {
@@ -978,7 +982,7 @@ a {
   padding: 2rem;
   padding-top: 5rem;
   flex: 1;
-  color: var(--extra-light);
+  color: #f3f4f6;
   display: grid;
   gap: 2rem;
 }
@@ -1003,5 +1007,95 @@ a {
   align-items: center;
   gap: 1rem;
 }
+
+.btnt {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.porfolio {
+  background-color: #f3f4f6;
+  font-size: 1.5rem;
+}
+
+.cv {
+  color: #767268;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.cv:hover {
+  color: #f3f4f6;
+}
+
+.nav__links {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+
+.link{
+  padding: 0 .5rem;
+  color: #767268;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: #f3f4f6;
+}
+
+.image {
+  max-width: 600px;
+  padding: 2rem;
+  padding-top: 5rem;
+  flex: 1;
+  display: grid;
+  place-content: center;
+  position: relative;
+}
+
+.image img {
+  max-width: 400px;
+}
+
+.image__content {
+  color: #f3f4f6;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.image__content h4 {
+  background-color: #f3f4f6;
+  color: #000000;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+
+.image__content p {
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+
 
 
