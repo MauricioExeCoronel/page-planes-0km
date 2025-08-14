@@ -1042,4 +1042,20 @@ a {
   font-weight: 600;
 }
 
+/* PAGE TRABAJACN RESPONSIVE */
+@media (max-width: 768px) {
+  .header-tcn {
+    flex-direction: column-reverse;
+  }
+  .container__left, .container__right {
+    justify-content: center;
+  }
+  .content-tcn {
+    text-align: center;
+  }
+  .action__btns {
+    justify-content: center;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
