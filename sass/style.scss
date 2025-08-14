@@ -1198,3 +1198,18 @@ a {
 .input-data .inputc:valid ~ .underline::before {
   transform: scaleX(1);
 }
+
+@media (max-width: 640px) {
+
+  #body-tcn {
+    width: 100%;
+    gap: 2rem;
+    padding: 0px 20px;
+  }
+
+  .wrapper {
+    max-width: 500px;
+    grid-template-columns: auto;
+  }
+}
+
